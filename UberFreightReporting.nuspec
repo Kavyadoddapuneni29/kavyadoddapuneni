@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>UberFreightReporting</id>
+    <version>2.0.2</version>
+    <title>UberFreightReporting</title>
+    <authors>u6527453</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Robotic Enterprise Framework</description>
+    <tags>VisualBasic VB UiPathStudioProcess UiPathEntities</tags>
+    <repository type="GIT" url="https://github.com/CLX-UIPATH-RPA/Uber-Freight-Reporting/blob/main/project.json" branch="main" commit="3f1f51c7af51c121bc8fa8a693610eccfb7b628f" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Clorox.SAP_ECC.Activities" version="[2.1.5]" />
+        <dependency id="Clorox.Utilities.Library" version="[2.3.0]" />
+        <dependency id="UiPath.DataService.Activities" version="[24.7.1]" />
+        <dependency id="UiPath.Excel.Activities" version="[2.23.4]" />
+        <dependency id="UiPath.MicrosoftOffice365.Activities" version="[2.6.24]" />
+        <dependency id="UiPath.System.Activities" version="[24.10.5]" />
+        <dependency id="UiPath.UIAutomation.Activities" version="[24.10.3]" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
